@@ -6,8 +6,9 @@
 
 ```bash
 https://github.com/ceiqapractice/PartialImageComp.git
+```
 
-1.2 Install Required Packages:
+1.2 Install Required Packages
 
 ```bash
 pip install playwright opencv-python-headless matplotlib
