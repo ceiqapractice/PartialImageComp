@@ -1,3 +1,4 @@
+import os
 import cv2
 import numpy as np
 from playwright.sync_api import sync_playwright
@@ -33,7 +34,7 @@ def find_and_display_image_in_screenshot(screenshot_path, image_path):
     plt.figure(figsize=(10, 6))
     plt.subplot(121)
     plt.imshow(screenshot_rgb)
-    plt.title('Screenshot with partial Highlighted')
+    plt.title('Screenshot with partial image is Highlighted')
     plt.axis('off')
 
     plt.subplot(122)
@@ -60,7 +61,8 @@ def capture_screenshot_of_local_html(html_file_path, screenshot_path):
 
 # Example usage
 if __name__ == "__main__":
-    html_file_path = r"C:\Users\dganesh\OneDrive - Computer Enterprises Inc\Desktop\Comp\index.html"  # Adjust this path to your local HTML file
+    script_dir = os.path.dirname(os.path.realpath(__file__))
+    html_file_path = os.path.join(script_dir, "index.html")  # Relative path to index.html
     screenshot_path = "screenshot.png"
     image_path = "partial_image.png"  # Adjust this path to the image you want to find
 
