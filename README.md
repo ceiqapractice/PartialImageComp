@@ -118,4 +118,5 @@ python capture_and_match_image.py
 
 The script will launch a Chromium browser, load the specified HTML file, capture a screenshot, perform template matching with the specified image template, and display the visual result using Matplotlib.
 
-![alt text](image.png)
+![image](https://github.com/ceiqapractice/PartialImageComp/assets/110914539/e7d043cb-bcb6-4163-b7b5-8f0b1ca938e4)
+
