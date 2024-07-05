@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Multiple Images</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            margin: 0 10px; /* Adjust margin between images */
+            border: 1px solid #ddd; /* Optional: Add border around images */
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); /* Optional: Add box-shadow */
+        }
+    </style>
+</head>
+<body>
+    <h1>Display Multiple Images Side by Side</h1>
+
+    <div class="image-container">
+        <img src="partial_image.png" alt="Image 1">
+        <img src="image2.png" alt="Image 2">
+        <img src="image3.png" alt="Image 3">
+        <!-- Add more images as needed -->
+    </div>
+
+</body>
+</html>
