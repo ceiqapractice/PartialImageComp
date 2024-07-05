@@ -2,7 +2,12 @@
 
 ## Step 1: Install Required Packages
 
-1.1 Install Required Packages:
+1.1 Clone the repo using below URL
+
+```bash
+https://github.com/ceiqapractice/PartialImageComp.git
+
+1.2 Install Required Packages:
 
 ```bash
 pip install playwright opencv-python-headless matplotlib
